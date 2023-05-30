@@ -1,0 +1,43 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1683968890,
+        "narHash": "sha256-FuNtjMvT07cJydY5NRyRhIni/dEwkSkijmFEdsmqdkA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "ea11a3977f4cba013d8680667616be827c967ac0",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "sqlite3pp": "sqlite3pp"
+      }
+    },
+    "sqlite3pp": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1512015356,
+        "narHash": "sha256-AVbV7PD4rnGuxwl2cQSaZe1H1tbyGf2jRnxqJiJuFSU=",
+        "owner": "iwongu",
+        "repo": "sqlite3pp",
+        "rev": "68e6fa2fadf1aeb3f2f41f4883563748002d973a",
+        "type": "github"
+      },
+      "original": {
+        "owner": "iwongu",
+        "ref": "v1.0.8",
+        "repo": "sqlite3pp",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
